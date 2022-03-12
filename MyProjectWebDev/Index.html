@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Most Excellent Website</title>
+		<link rel="stylesheet" href="css/myStyle.css">
+	</head>
+	
+		<body>
+		
+			<h1 id="myHeader" class="headers">This Is My Most Excellent Website</h1>
+			
+			<p class="headers">This is a paragraph. </p
+
+			<br>
+				
+			<h2 style="color:red;" class="headers">I Like Boobies.</h2>
+					
+			<a class="headers" href="https://google.com">Click Here Dummy!!</a>	
+		
+			<form>
+				
+				<label>Enter your first name</label>
+				<input type="text" name="fname" id="firstName">
+				<label>Enter your last name</label> 
+				<input type="text" name="lname" id="lastName">
+				<button onclick="displayUserName()">Click here</button> 
+			</form> 
+			
+		</body>
+
+</html>
+
+<script>
+
+	function displayUserName() {
+		var userFirstName = document.getElementById(firstName).value;
+		var userLastName = document.getElementById(lastName).value;
+
+		window.alert("your name is" + userFirstName + userLastName);
+	}
+	
+</script>
